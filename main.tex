@@ -1,0 +1,139 @@
+\documentclass[a4paper,12pt]{article}
+%\usepackage[italian, english]{babel}
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage[italian, english]{babel}
+\usepackage{graphicx}
+\usepackage[round]{natbib}
+\usepackage[table]{xcolor}
+%\usepackage{wrapfig}
+\usepackage{rotating}
+%\usepackage{import}
+\setlength{\oddsidemargin}{0pt}
+\addtolength{\voffset}{-52pt}
+\setlength{\textwidth}{6.27in}
+\setlength{\textheight}{10.in}
+\usepackage{setspace}
+\usepackage{url}
+\onehalfspacing
+
+
+
+
+\begin{document}
+	
+	\begin{center}
+		\textbf{JASSS}
+
+	\vspace{4mm}
+\textbf{Article reference 2018:74:1}
+
+	\vspace{4mm}
+	{\Large\textbf{Changes to the manuscript on the basis of Reviewers' comments}}
+
+\vspace{4mm}
+\textbf{Manuscript title:}
+
+\textbf{Investigating the effects of Climate Shocks on the Wheat International Market with an Agent-Based Model: The 2010 Russian Federation Case}
+	\end{center}
+	%\uppercase{Reply to Reviewer 1}
+\vspace{10mm}
+
+
+
+We thank the reviewers for the accurate and qualified revision of the
+manuscript. When we read their reports, we were particularly pleased by their ability to
+understand the exact purpose of the paper. Their comments showed us the weaknesses of the draft and signaled the points which needed improvements and more careful consideration from our side. 
+We worked to strengthen the identified weaknesses and we provide a revised version of the paper.
+
+\iffalse
+First of all, their comments convinced us to change the title of the manuscript from \textit{"Investigating the effects of Climate Shocks on the Wheat International Market with an Agent-Based Model: The 2010 Russian Federation Case"} to 
+\textit{"A computational model of the Wheat Global Market: the 2010 Russian Federation Case"}.
+\fi
+
+\iffalse
+First of all, we would like to thank the reviewer for the accurate and qualified revision of the
+manuscript. When we read the report, we were particularly impressed by the reviewer's ability to
+understand the exact purpose of the model reported in the manuscript.
+Her/his comments let us see the weaknesses that escaped our eyes. 
+We worked to strengthen the identified weaknesses and we provide a revised version of the paper that we hope the reviewer will find significantly improved.
+\fi
+
+
+A detailed description of the changes made on the basis of  Reviewers' comments and suggestions is provided hereafter. 
+
+
+%Below, you will find a description of how the major comments were addressed in the manuscript. Original reviewer
+
+\vskip1cm
+\textbf{Reviewer 1}
+
+
+
+
+\begin{itemize}
+\item The reviewer asks to qualify to which degree the model is an ABM. 
+
+Although the model has agents, its present implementation does not follow the standard ABM approach. 
+The present version of the model is an attempt to create a virtual world with a limited number of macro agents that can be related to real-world countries or groups of countries. The aim is to forge each agent as close as possible to the real world counterpart and to investigate the dynamics resulting from their interaction. In this sense, the current implementation is at the crossroad between ABM and Microsimulation approach. 
+Considering the reviewer helpful comment, we have decided to refer more generally to a computational model. The title was also modified accordingly.
+\item The model is largely presented in a condensed and itemized form which is hard to follow.
+
+    We have worked to have a more intuitive and less technical presentation of the model. As also recommended by reviewer 2, we have reworked the model description to make it suitable for a broader audience. The reader is now pointed to the documentation. Most of the specific points raised by the reviewer were however used to improve the documentation. 
+
+\item A careful revision of the English language was performed.
+
+
+\end{itemize}
+
+\vskip1cm
+\textbf{Reviewer 2}
+\begin{itemize}
+	\item The reviewer asks to reformulate the paper giving more weight to the ''qualitative findings'' of the model.
+    Firstly, we have reduced the technical part using visual representation (Fig. 1) and diagram (Fig. 2) to describe the concept of the model, and a practical example (Tab. 1). Secondly, we have given details about the functioning of the real wheat market and described how our model treats the corresponding factors. Perhaps, the most significative adding in this framework is related to the Trade Market Network (Fig. 11). In fact, model simulations by the quantity side let us reproduce the dynamic of worldwide wheat exchanges. We have highlighted this finding throughout the paper. We hope this approach would go in the direction of the reviewer suggested.
+    
+    \item ''A better analysis of the requirements of a model of the world wheat market would bring the scale of the problem in better balance with level of detail in the model. We recommend the authors to focus on this area of improvement'' 
+    
+    We have added a discussion and some associated references for a better description of the factors that are responsible for the volatility of wheat prices. For instance, we have included arguments about one of the most significative factors of this market, which is the speculation (in Russian Case paragraph as well as in Conclusion and Discussion section). There, we also clearly state that ''the two sharp peaks in 2007/2008 and 2010/2011 are faithfully reproduced also if they are specifically due to investor speculation that is not strictly accounted in our model implementation''. The subject of this answer is connected also to the following request by the reviewer.
+    
+    \item ''...to improve their analysis on the robustness of their overall conclusion on the Russian ban''
+    
+    We have enlarged the story of the Russian Federation ban declaration and a more deeply discussion both on the causes and the effects of such an act. As a consequence of this thinking, we were able to reinforce the discussion on the results obtained either by the quantity or the price side. In this sense, we highlight the fact that  ''The price simulation without ban confirms the uselessness of the ban while the general price increase is due to net supply shock between what has been declared early in 2010 and what happened later (Wegren 2011; Adjemian et al. 2014). In this way, predictions of a poor harvest in the Russian Federation lead to dramatic increases in purchases an prices, even though this drop in production would not have a dramatic impact on global supply. This then triggers export bans in exporting countries, which in turn makes importers even more nervous and so generates a self-fulfilling prophecy (Welton 2011). This may also help to explain the persistence of high prices as highlighted in figure 16 with and without the ban.''. 
+
+	
+\end{itemize}
+
+
+\vskip1cm
+Finally, we would like to thank the reviewers once more for the careful review and detailed comments as well as constructive suggestions. We hope the reviewers will find the new version of the paper significantly improved. We kindly ask them to indicate additional improvements they will find during the reading of this new version. 
+
+\vskip1cm
+We enclosed here a list of new references included in this version of the paper:
+
+\begin{enumerate}
+    \item S.K. Wegren (2011) Food Security and Russia's 2010 Drought,Eurasian Geography and Economics, 52:1, 140-156, DOI: 10.2747/1539-7216.52.1.140
+
+    \item Opinion Global Economy, Time to regulate volatile food markets, Financial Times, August 3, 2010, p. 1
+
+    \item OECD., 2011. Agricultural Policy Monitoring and Evaluation 2011: OECD Countries and Emerging Economies
+
+    \item Tang K, Xiong W (2011) Index investment and financialization of commodities. NBER Working Paper 16385 (National Bureau of Economic Research, Cambridge, MA). Available at www.nber.org/papers/w16385.pdf.
+
+    \item M. Lagi, Y. Bar-Yam, K.Z. Bertrand, Y. Bar-Yam, Accurate market price formation model with both supply-demand and trend-following for global food prices providing policy recommendations Proc. Natl. Acad. Sci., 112 (2015), pp. E6119-E6128
+    \item Rutten, M., Shutes, L., & Meijerink, G. (2013). Sit down at the ballgame: How trade barriers make the world less food secure. Food Policy, 38, 1–10.
+    \item OECD-FAO Agricultural Outlook 2012, Biofuels. Available at \url{ http://www.fao.org/fileadmin/templates/est/COMM_MARKETS_MONITORING/Oilcrops/Documents/OECD_Reports/biofuels_chapter.pdf}
+    \item Musunuru N (2014) Modeling price volatility linkages between corn and wheat: a multivariate GARCH estimation. Int Adv Econ Res 20(3):269–280
+    \item Janzen, Joseph P., Carter, Colin A., Smith, Aaron D. Smith, and Michael K. Adjemian. Deconstructing Wheat Price Spikes: A Model of Supply and Demand, Financial Speculation, and Commodity Price Comovement, ERR-165, U.S. Department of Agriculture, Economic Research Service, April 2014.
+    \item Adjemian, M.K., P. Garcia, S.H. Irwin, and A.D. Smith. 2013. Non-convergence in Domestic Commodity Futures Markets: Causes, Consequences, and Remedies, Economic Information Bulletin No. 115, U.S. Department of Agriculture, Economic Research Service, August, \url{www.ers.usda.gov/publications/}
+    \item Garcia, P., S.H. Irwin, and A.D. Smith. 2012. “Futures Market Failure?” Working Paper, University of California, Davis.
+    \item    Delincé, J., 2017. Recent practices and advances for AMIS crop yield forecasting at farm/parcel level: a review. FAO–AMIS Publication, Rome, \url{http://www.fao.org/3/a-i7339e.pdf} (accessed 10 November 2017).
+M.E. Brown Remote sensing technology and land use analysis in food security assessment J. Land Use Sci., 11 (2016), pp. 623-641, \url{10.1080/1747423X.2016.1195455}
+    \item    G20, 2011. G20 Cannes Summit Final Declaration “Building Our Common Future: Renewed Collective Action for the Benefit of All”, \url{http://www.g20.utoronto.ca/2011/2011-cannes-declaration-111104-en.html} (accessed 2 February 2019).
+    \item    GEOGLAM, 2017. Crop Monitor, \url{https://cropmonitor.org/} (accessed 2 February 2019)
+    \item    Iizumi, T., Shin, Y., Kim, W., Kim, M., & Choi, J. (2018). Global crop yield forecasting using seasonal climate information from a multi‐model ensemble. Climate Services, 11, 13–23. 
+\end{enumerate}
+
+
+
+\end{document}
+
